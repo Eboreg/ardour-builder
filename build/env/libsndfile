@@ -1,0 +1,3 @@
+DOWNLOAD_URL=http://ardour.org/files/deps/libsndfile-1.1.0-41-gd8503a66.tar.xz
+SUB_DIR=libsndfile-1.1.0
+BUILD_SCRIPT=make

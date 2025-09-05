@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+./waf configure
+./waf
+./waf install

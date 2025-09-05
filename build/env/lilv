@@ -1,0 +1,3 @@
+DOWNLOAD_URL=http://ardour.org/files/deps/lilv-0.24.13-g71a2ff5.tar.bz2
+SUB_DIR=lilv-0.24.13
+BUILD_SCRIPT=waf

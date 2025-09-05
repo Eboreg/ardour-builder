@@ -1,0 +1,4 @@
+.directory
+.megaignore
+/build/sources
+/out

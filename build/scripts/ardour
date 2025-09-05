@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+./waf configure --strict --prefix=/usr --configdir=/etc --ptformat --with-backends=jack,alsa,pulseaudio,dummy --libjack=weak --optimize --cxx17
+./waf
+cd tools/linux_packaging || exit 1
+./build --public --strip some
+./package --public --singlearch
+mkdir -p /build/out
+mv Ardour*.tar /build/out/

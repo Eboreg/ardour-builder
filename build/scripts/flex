@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+./configure CFLAGS=-DSTDC_HEADERS
+make
+make install
