@@ -16,7 +16,7 @@ Lastly, an "application bundle" will be created according to https://ardour.org/
 
 ## Environment files
 
-The `docker/build/env/*` files may contain these variables:
+The `build/env/*` files may contain these variables:
 
 * `DOWNLOAD_URL` (mandatory; get them from https://nightly.ardour.org/list.php#build_deps)
 * `ARCHIVE_NAME` (name of the downloaded file; will be extracted from `DOWNLOAD_URL` if not set)
