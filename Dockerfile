@@ -25,4 +25,5 @@ RUN ./build-dep.sh lv2
 RUN ./build-dep.sh sord
 RUN ./build-dep.sh sratom
 RUN ./build-dep.sh lilv
-RUN ./build-dep.sh ardour
+
+CMD ./build-dep.sh ardour
