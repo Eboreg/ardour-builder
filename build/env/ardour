@@ -1,2 +1,5 @@
-DOWNLOAD_URL=https://community.ardour.org/download/release/610
-ARCHIVE_NAME=Ardour-8.12.0.tar.bz2
+# DOWNLOAD_URL=https://community.ardour.org/download/release/640
+# ARCHIVE_NAME=Ardour-8.12.0.tar.bz2
+GIT_REPO=https://github.com/Ardour/ardour.git
+GIT_CHECKOUT=9.7
+SUB_DIR=ardour
